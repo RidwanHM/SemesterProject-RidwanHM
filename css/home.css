@@ -14,22 +14,23 @@ header{
 background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
 width: 100%;
 height: 40px;
+margin: 0px;
+padding: 0px;
+position: fixed;
 }
 
-ul{
-margin: 10px;
-padding:0;
+.navbar{
 display: flex;
 flex-direction: row;
-gap: 1rem;
-justify-content: center;
+position: fixed;
 }
+
 
 nav{
 display: flex;
 flex-direction: row;
 justify-content: center;
-margin: -27px;
+margin: 0px;
 gap: 0px;
 }
 
@@ -51,7 +52,29 @@ font-weight: 700;
 font-size: 12px;
 line-height: 18px;
 text-align: center;
-padding: 0;
+padding-top: 9px;
 margin: 0;
 color: #ffffff;
+}
+
+footer{
+background:linear-gradient(180deg, #01051B 68.57%, rgba(154, 7, 118, 0.89) 100%);
+width: 100%;
+margin-top: auto;
+}
+
+.footerlogo{
+width: 167px;
+}
+
+.bottom{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.bottom p{
+color: #ffffff;
+text-align: center;
 }
