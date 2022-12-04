@@ -62,8 +62,61 @@ nav{
 
 
 
+        .get-involved{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        padding-top: 4rem;
+        padding-bottom: 8rem;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+    
+        .get-support h3{
+        color: #01051B;
+        }
+        
+        .support-card{
+        background:#0DA5D44D;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        padding: 0px;
+        padding-bottom: 1rem;
+        }
+        
+        .inside-support{
+        display: flex;
+        flex-direction: column;
+        gap:1rem;
+        }
+        
+        .inside-support p{
+        font-weight: 400;
+        font-size: 12px;
+        color: black;
+        text-align: center;
+        padding: 1rem;
+        }
 
 
+        .volunteer-card{
+            background:#6012AE4D;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 10px;
+            padding: 0px;
+            padding-bottom: 1rem;
+            }
+
+            .internships-card{
+                background:#D9AD4E;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 10px;
+                padding: 0px;
+                padding-bottom: 1rem;
+                }
+    
+            
 
 
 
