@@ -10,6 +10,8 @@ display: flex;
 flex-direction: column;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 header{
 background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
 width: 100%;
@@ -35,7 +37,7 @@ gap: 0px;
 }
 
 .logo{
-width: 22px;
+width: 34px;
 }
 
 .fa-sharp1{
@@ -47,7 +49,7 @@ padding: 10px;
 .logo-name{
 width:201px;
 height:16px;
-font-family: space mono;
+font-family:'Courier New', Courier, monospace;
 font-weight: 700;
 font-size: 12px;
 line-height: 18px;
@@ -57,6 +59,92 @@ margin: 0;
 color: #ffffff;
 }
 
+.hero{
+padding: 0;
+width: 100%;
+min-height: 35vh;
+border-radius: 0px 0px 25px 25px;
+}
+
+.hero-text{
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+padding: 1rem;
+}
+
+.hero-text p{
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+
+.events{
+font-family: 'Courier New', Courier, monospace;
+align-items: center;
+text-align: center;
+padding: 1rem;
+padding-bottom: 8rem;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.night-card{
+background: rgba(13, 165, 213, 0.3);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+padding: 0px 14px 21px 16px;
+}
+
+.inside-night{
+display: flex;
+flex-direction: row;
+gap:1rem;
+}
+
+.inside-night p{
+font-weight: 400;
+font-size: 8px;
+text-align: left;
+}
+
+.inside-night button{
+background: #AA86A7;
+width: 100%;
+color: #ffffff;
+font-family: 'Courier New', Courier, monospace;
+}
+
+
+.night-pic{
+max-width: 48vw;
+max-height: 44vh;
+border-radius: 10px;
+}
+
+
+
+.energi-card{
+    background: rgba(96, 18, 174, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0px 14px 21px 16px;
+}
+
+.aeronautics-card{
+    background: #D9AD4E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 0px 14px 21px 16px;
+}
+
+
+
+
+
+
+
+
+
+
 footer{
 background:linear-gradient(180deg, #01051B 68.57%, rgba(154, 7, 118, 0.89) 100%);
 width: 100%;
@@ -64,7 +152,7 @@ margin-top: auto;
 }
 
 .footerlogo{
-width: 167px;
+width: 223px;
 }
 
 .bottom{
@@ -77,4 +165,5 @@ align-items: center;
 .bottom p{
 color: #ffffff;
 text-align: center;
+font-family: 'Courier New', Courier, monospace;
 }
