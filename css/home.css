@@ -356,29 +356,6 @@ border-radius: 10px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer{
 background:linear-gradient(180deg, #01051B 68.57%, rgba(154, 7, 118, 0.89) 100%);
 width: 100%;
@@ -400,4 +377,14 @@ align-items: center;
 color: #ffffff;
 text-align: center;
 font-family: 'Courier New', Courier, monospace;
+}
+
+
+@media screen and (min-width:990px){
+.desktop-events{display: flex;
+    flex-direction: row;
+}
+.inside-night{display: flex;
+flex-direction: column;}
+.night-pic{max-width: 29vw;}
 }
