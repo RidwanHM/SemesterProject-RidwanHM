@@ -206,30 +206,6 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
     footer{
         background:linear-gradient(180deg, #01051B 68.57%, rgba(154, 7, 118, 0.89) 100%);
         width: 100%;
@@ -252,3 +228,8 @@ nav{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
         }
+
+
+@media screen and (min-width:990px){
+.explore-spaces{padding: 9rem;}
+}
