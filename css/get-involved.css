@@ -150,3 +150,7 @@ nav{
         text-align: center;
         font-family: 'Courier New', Courier, monospace;
         }
+
+        @media screen and (min-width:990px){
+            .get-involved{padding: 9rem;}
+            }

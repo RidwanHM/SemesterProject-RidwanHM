@@ -387,4 +387,6 @@ font-family: 'Courier New', Courier, monospace;
 .inside-night{display: flex;
 flex-direction: column;}
 .night-pic{max-width: 29vw;}
+.hero-text{padding: 2rem 5rem;}
+.exhibition-spaces{padding: 9rem;}
 }
