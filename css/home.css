@@ -118,6 +118,7 @@ background: rgba(13, 165, 213, 0.3);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px;
 padding: 0px 14px 21px 16px;
+transition: all 300ms ease-out;
 }
 
 .night-card:hover{
@@ -145,7 +146,16 @@ width: 100%;
 color: #ffffff;
 font-family: 'Courier New', Courier, monospace;
 border-radius: 10px;
+transition: all 300ms ease-out;
 }
+
+.inside-night button:hover{
+    background:#9A0776 ;
+    font-size: 20px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+    border-radius: 44px;
+    }
 
 
 .night-pic{
@@ -161,6 +171,7 @@ border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 0px 14px 21px 16px;
+    transition: all 300ms ease-out;
 }
 
 .energi-card:hover{
@@ -175,6 +186,7 @@ border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 0px 14px 21px 16px;
+    transition: all 300ms ease-out;
 }
 .aeronautics-card:hover{
     font-size: 20px;
@@ -206,6 +218,7 @@ border-radius: 10px;
     border-radius: 10px;
     padding: 0px;
     padding-bottom: 1rem;
+    transition: all 300ms ease-out;
     }
     .cosmology-card:hover{
         font-size: 20px;
@@ -229,13 +242,20 @@ border-radius: 10px;
     }
     
     .inside-cosmology button{
-    background: #AA86A7;
+    background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
     width: 80%;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 10px;
+    transition: all 300ms ease-out;}
 
-    }
+    .inside-cosmology button:hover{
+        background:#9A0776 ;
+        font-size: 20px;
+        transition: all 500ms;
+        font-size-adjust: 20px;
+        border-radius: 44px;
+        }
     
     
     .cosmology-pic{
@@ -253,6 +273,7 @@ border-radius: 10px;
         border-radius: 10px;
         padding: 0px;
         padding-bottom: 1rem;
+        transition: all 300ms ease-out;
         }
         .evolution-card:hover{
             font-size: 20px;
@@ -276,13 +297,20 @@ border-radius: 10px;
         }
         
         .inside-evolution button{
-        background: #AA86A7;
+        background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
         width: 80%;
         color: #ffffff;
         font-family: 'Courier New', Courier, monospace;
         border-radius: 10px;
-    
-        }
+        transition: all 300ms ease-out;}
+
+        .inside-evolution button:hover{
+            background:#9A0776 ;
+            font-size: 20px;
+            transition: all 500ms;
+            font-size-adjust: 20px;
+            border-radius: 44px;
+            }
         
         
         .evolution-pic{
@@ -299,6 +327,7 @@ border-radius: 10px;
         border-radius: 10px;
         padding: 0px;
         padding-bottom: 1rem;
+        transition: all 300ms ease-out;
         }
         .biology-card:hover{
             font-size: 20px;
@@ -322,13 +351,20 @@ border-radius: 10px;
         }
         
         .inside-biology button{
-        background: #AA86A7;
+        background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
         width: 80%;
         color: #ffffff;
         font-family: 'Courier New', Courier, monospace;
         border-radius: 10px;
-    
-        }
+        transition: all 300ms ease-out;}
+
+        .inside-biology button:hover{
+            background:#9A0776 ;
+            font-size: 20px;
+            transition: all 500ms;
+            font-size-adjust: 20px;
+            border-radius: 44px;
+            }
         
         
         .biology-pic{
@@ -347,6 +383,7 @@ border-radius: 10px;
             border-radius: 10px;
             padding: 0px;
             padding-bottom: 1rem;
+            transition: all 300ms ease-out;
             }
             .ecology-card:hover{
                 font-size: 20px;
@@ -370,13 +407,20 @@ border-radius: 10px;
             }
             
             .inside-ecology button{
-            background: #AA86A7;
+            background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
             width: 80%;
             color: #ffffff;
             font-family: 'Courier New', Courier, monospace;
             border-radius: 10px;
-        
-            }
+            transition: all 300ms ease-out;}
+
+            .inside-ecology button:hover{
+                background:#9A0776 ;
+                font-size: 20px;
+                transition: all 500ms;
+                font-size-adjust: 20px;
+                border-radius: 44px;
+                }
             
             
             .ecology-pic{
@@ -392,10 +436,11 @@ border-radius: 10px;
                 border-radius: 10px;
                 padding: 0px;
                 padding-bottom: 1rem;
+                transition: all 300ms ease-out;
                 }
                 .robotics-card:hover{
                     font-size: 20px;
-                    transition: all 500ms;
+                    transition: all 500ms ease-out;
                     font-size-adjust: 20px;
                     border-radius: 44px;
                     }
@@ -415,13 +460,20 @@ border-radius: 10px;
                 }
                 
                 .inside-robotics button{
-                background: #AA86A7;
+                background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
                 width: 80%;
                 color: #ffffff;
                 font-family: 'Courier New', Courier, monospace;
                 border-radius: 10px;
-            
-                }
+                transition: all 300ms ease-out;}
+
+                .inside-robotics button:hover{
+                    background:#9A0776 ;
+                    font-size: 20px;
+                    transition: all 500ms;
+                    font-size-adjust: 20px;
+                    border-radius: 44px;
+                    }
                 
                 
                 .robotics-pic{

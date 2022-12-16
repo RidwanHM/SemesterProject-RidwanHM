@@ -114,6 +114,7 @@ nav{
         border-radius: 10px;
         padding: 0px;
         padding-bottom: 1rem;
+        transition: all 300ms ease-out;
         }
 
         .kids-card:hover{
@@ -138,13 +139,22 @@ nav{
         }
         
         .inside-kids button{
-        background: #AA86A7;
+        background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
         width: 80%;
         color: #ffffff;
         font-family: 'Courier New', Courier, monospace;
         border-radius: 10px;
+        transition: all 300ms ease-out;
     
         }
+
+        .inside-kids button:hover{
+            background:#9A0776 ;
+            font-size: 20px;
+            transition: all 500ms;
+            font-size-adjust: 20px;
+            border-radius: 44px;
+            }
         
         
         .kids-pic{
@@ -164,6 +174,7 @@ nav{
             border-radius: 10px;
             padding: 0px;
             padding-bottom: 1rem;
+            transition: all 300ms ease-out;
             }
 
             .teachers-card:hover{
@@ -188,13 +199,22 @@ nav{
             }
             
             .inside-teachers button{
-            background: #AA86A7;
+            background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
             width: 80%;
             color: #ffffff;
             font-family: 'Courier New', Courier, monospace;
             border-radius: 10px;
+            transition: all 300ms ease-out;
         
             }
+
+            .inside-teachers button:hover{
+                background:#9A0776 ;
+                font-size: 20px;
+                transition: all 500ms;
+                font-size-adjust: 20px;
+                border-radius: 44px;
+                }
             
             
             .teachers-pic{
@@ -212,6 +232,7 @@ nav{
                 border-radius: 10px;
                 padding: 0px;
                 padding-bottom: 1rem;
+                transition: all 300ms ease-out;
                 }
 
                 .researchers-card:hover{
@@ -236,13 +257,20 @@ nav{
                 }
                 
                 .inside-researchers button{
-                background: #AA86A7;
+                background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
                 width: 80%;
                 color: #ffffff;
                 font-family: 'Courier New', Courier, monospace;
                 border-radius: 10px;
-            
-                }
+                transition: all 300ms ease-out;}
+
+                .inside-researchers button:hover{
+                    background:#9A0776 ;
+                    font-size: 20px;
+                    transition: all 500ms;
+                    font-size-adjust: 20px;
+                    border-radius: 44px;
+                    }
                 
                 
                 .researchers-pic{
