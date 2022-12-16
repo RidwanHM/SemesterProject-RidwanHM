@@ -599,3 +599,7 @@ justify-content: space-evenly;
     .inside-biology p{font-size: 25px;}
     .inside-ecology p{font-size: 25px;}
     .inside-robotics p{font-size: 25px;}}
+
+
+    @media screen and (min-width:1500px){
+    .exhibition-spaces{padding: 5rem 40rem;}}

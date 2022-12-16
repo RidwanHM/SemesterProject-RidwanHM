@@ -254,6 +254,18 @@ nav{
             
 
 
+
+
+
+        @media screen and (min-width:600px){
+    
+               
+                .explore-spaces{padding: 4rem;}}
+                
+                
+
+
+
         @media screen and (min-width:990px){
             .get-involved{padding: 9rem;}
             .desktop-events{display: flex;
@@ -291,3 +303,14 @@ nav{
             justify-content: space-evenly;
             }
         }
+
+
+        @media screen and (min-width:1500px){
+    
+               
+            .explore-spaces{padding:8rem 20rem;}}
+
+            @media screen and (min-width:1500px){
+    
+               
+                .explore-spaces{padding:8rem 40rem;}}

@@ -263,13 +263,22 @@ nav{
 
 
 
+
+
+            @media screen and (min-width:600px){
+    
+               
+                .ticket-spaces{padding: 4rem;}}
+
+
         @media screen and (min-width:990px){
             .get-involved{padding: 9rem;}
             .desktop-events{display: flex;
                 flex-direction: row;
                 gap:8px;}
             
-            
+            .inside-ticket p{font-size: 15px;
+            padding: 1rem 5rem;}
             header{
             height: 71px;
             display: flex;
@@ -300,3 +309,17 @@ nav{
             justify-content: space-evenly;
             }
         }
+
+
+        @media screen and (min-width:1500px){
+    
+            .inside-ticket p{font-size: 15px;
+            padding: 1rem 5rem;}
+            .ticket-spaces{padding:8rem 20rem;}}
+
+        
+        @media screen and (min-width:2200px){
+    
+            .inside-ticket p{font-size: 25px;
+                padding: 1rem 5rem;}
+                .ticket-spaces{padding:8rem 40rem;}}
