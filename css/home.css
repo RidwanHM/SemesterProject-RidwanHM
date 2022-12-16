@@ -515,6 +515,19 @@ gap: 1rem;
 }
 
 
+@media screen and (min-width:600px){
+    
+    .hero-text{padding: 2rem 5rem;}
+    .exhibition-spaces{padding: 4rem;}
+    
+    .hero-text p{font-size: 15px;}
+    .inside-night p{font-size: 15px;}
+    .inside-cosmology p{font-size: 15px;}
+    .inside-evolution p{font-size: 15px;}
+    .inside-biology p{font-size: 15px;}
+    .inside-ecology p{font-size: 15px;}
+    .inside-robotics p{font-size: 15px;}}
+    
 
 
 
