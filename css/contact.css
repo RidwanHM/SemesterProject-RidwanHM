@@ -84,6 +84,7 @@ nav{
     margin: 0;
     color: #ffffff;
     }
+    
 
     .contact-about{
         font-family: 'Courier New', Courier, monospace;
@@ -247,6 +248,7 @@ padding: 0%;
             }
             .desktop-nav{
             display: flex;
+            flex-direction: row;
             justify-content: flex-end;
             width: 100%;
             padding-right: 1rem;}
