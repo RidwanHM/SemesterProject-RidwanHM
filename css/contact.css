@@ -217,7 +217,20 @@ padding: 0%;
             justify-content: center;
             gap: 1rem;
             }
-            
+           
+           
+           
+           
+           
+         @media screen and (min-width:600px){
+    
+               
+                .contact-about{padding: 4rem;}
+                
+                
+                .inside-admission p{font-size: 15px;}
+                .inside-shop p{font-size: 15px;}}
+               
 
 
 

@@ -312,7 +312,15 @@ nav{
             gap: 1rem;
             }
             
-
+            @media screen and (min-width:600px){
+    
+                
+                .explore-spaces{padding: 4rem;}
+                
+                .inside-kids p{font-size: 15px;}
+                .inside-teachers p{font-size: 15px;}
+                .inside-researchers p{font-size: 15px;}}
+                
 
 
         @media screen and (min-width:990px){

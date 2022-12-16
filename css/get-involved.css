@@ -186,6 +186,18 @@ nav{
             }
             
 
+           
+            @media screen and (min-width:600px){
+    
+                
+                .get-involved{padding: 4rem;}
+                
+                .inside-support p{font-size: 15px;}}
+                
+             
+
+
+
         @media screen and (min-width:990px){
             .get-involved{padding: 9rem;}
             .desktop-events{display: flex;
