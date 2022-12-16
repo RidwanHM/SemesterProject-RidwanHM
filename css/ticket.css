@@ -1,6 +1,16 @@
 html{
     height: 100%;
+    box-sizing: border-box;
     }
+
+html:focus-within{
+scroll-behavior: smooth;
+}
+*,
+*::before
+*::after{
+    box-sizing: inherit;
+}
     
 body{
     min-height: 100%;
