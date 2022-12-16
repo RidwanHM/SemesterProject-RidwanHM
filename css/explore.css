@@ -360,3 +360,13 @@ nav{
             justify-content: space-evenly;
             }
         }
+
+        @media screen and (min-width:1500px){
+    
+                
+            .explore-spaces{padding:5 20rem;}
+            
+            .inside-kids p{font-size: 25px;}
+            .inside-teachers p{font-size: 25px;}
+            .inside-researchers p{font-size: 25px;}}
+            

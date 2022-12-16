@@ -272,3 +272,14 @@ padding: 0%;
             justify-content: space-evenly;
             }
         }
+
+
+
+        @media screen and (min-width:1500px){
+    
+               
+            .contact-about{padding:5rem 20rem;}
+            
+            .inside-location p{font-size: 25px;}
+            .inside-admission p{font-size: 25px;}
+            .inside-shop p{font-size: 25px;}}

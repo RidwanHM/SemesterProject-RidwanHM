@@ -580,3 +580,22 @@ display: flex;
 justify-content: space-evenly;
 }
 }
+
+@media screen and (min-width:1500px){
+    
+    .hero-text{
+    padding: 2rem 20rem;}
+    
+    .desktop-events{
+    gap: 19px;
+    padding: 0 4rem;
+    }
+    .exhibition-spaces{padding: 20rem;}
+    
+    .hero-text p{font-size: 20px;}
+    .inside-night p{font-size: 25px;}
+    .inside-cosmology p{font-size: 25px;}
+    .inside-evolution p{font-size: 25px;}
+    .inside-biology p{font-size: 25px;}
+    .inside-ecology p{font-size: 25px;}
+    .inside-robotics p{font-size: 25px;}}
