@@ -115,6 +115,13 @@ nav{
         padding: 0px;
         padding-bottom: 1rem;
         }
+
+        .kids-card:hover{
+            font-size: 20px;
+            transition: all 500ms;
+            font-size-adjust: 20px;
+            border-radius: 44px;
+            }
         
         .inside-kids{
         display: flex;
@@ -158,6 +165,13 @@ nav{
             padding: 0px;
             padding-bottom: 1rem;
             }
+
+            .teachers-card:hover{
+                font-size: 20px;
+                transition: all 500ms;
+                font-size-adjust: 20px;
+                border-radius: 44px;
+                }
             
             .inside-teachers{
             display: flex;
@@ -199,6 +213,13 @@ nav{
                 padding: 0px;
                 padding-bottom: 1rem;
                 }
+
+                .researchers-card:hover{
+                    font-size: 20px;
+                    transition: all 500ms;
+                    font-size-adjust: 20px;
+                    border-radius: 44px;
+                    }
                 
                 .inside-researchers{
                 display: flex;

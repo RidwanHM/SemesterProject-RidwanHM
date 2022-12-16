@@ -120,6 +120,13 @@ border-radius: 10px;
 padding: 0px 14px 21px 16px;
 }
 
+.night-card:hover{
+    font-size: 20px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+    border-radius: 44px;
+    }
+
 .inside-night{
 display: flex;
 flex-direction: row;
@@ -156,12 +163,25 @@ border-radius: 10px;
     padding: 0px 14px 21px 16px;
 }
 
+.energi-card:hover{
+    font-size: 20px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+    border-radius: 44px;
+    }
+
 .aeronautics-card{
     background: #D9AD4E;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 0px 14px 21px 16px;
 }
+.aeronautics-card:hover{
+    font-size: 20px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+    border-radius: 44px;
+    }
 
 
 
@@ -187,6 +207,12 @@ border-radius: 10px;
     padding: 0px;
     padding-bottom: 1rem;
     }
+    .cosmology-card:hover{
+        font-size: 20px;
+        transition: all 500ms;
+        font-size-adjust: 20px;
+        border-radius: 44px;
+        }
     
     .inside-cosmology{
     display: flex;
@@ -228,6 +254,12 @@ border-radius: 10px;
         padding: 0px;
         padding-bottom: 1rem;
         }
+        .evolution-card:hover{
+            font-size: 20px;
+            transition: all 500ms;
+            font-size-adjust: 20px;
+            border-radius: 44px;
+            }
         
         .inside-evolution{
         display: flex;
@@ -268,6 +300,12 @@ border-radius: 10px;
         padding: 0px;
         padding-bottom: 1rem;
         }
+        .biology-card:hover{
+            font-size: 20px;
+            transition: all 500ms;
+            font-size-adjust: 20px;
+            border-radius: 44px;
+            }
         
         .inside-biology{
         display: flex;
@@ -310,6 +348,12 @@ border-radius: 10px;
             padding: 0px;
             padding-bottom: 1rem;
             }
+            .ecology-card:hover{
+                font-size: 20px;
+                transition: all 500ms;
+                font-size-adjust: 20px;
+                border-radius: 44px;
+                } 
             
             .inside-ecology{
             display: flex;
@@ -349,6 +393,12 @@ border-radius: 10px;
                 padding: 0px;
                 padding-bottom: 1rem;
                 }
+                .robotics-card:hover{
+                    font-size: 20px;
+                    transition: all 500ms;
+                    font-size-adjust: 20px;
+                    border-radius: 44px;
+                    }
                 
                 .inside-robotics{
                 display: flex;
