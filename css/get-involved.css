@@ -178,6 +178,14 @@ nav{
         font-family: 'Courier New', Courier, monospace;
         }
 
+        .payment-options{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 1rem;
+            }
+            
+
         @media screen and (min-width:990px){
             .get-involved{padding: 9rem;}
             .desktop-events{display: flex;
