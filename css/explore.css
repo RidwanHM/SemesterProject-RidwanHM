@@ -20,7 +20,34 @@ header{
     padding: 0px;
     position: fixed;
     }
+ 
     
+    .desktop-nav
+    {
+    display:flex;
+    width: 100%;
+    gap: 25px;
+    display: none;
+    }
+    
+    .desktop-nav-item{
+    color: #ffffff;
+    list-style-type: none;
+    font-size:20px;
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+    .desktop-nav-item:hover{
+    color: #9A0776;
+    font-size: 35px;
+    transition: all 500ms;
+    font-size-adjust: 20px;
+    }
+    .desktop-nav a{
+    text-decoration: none;
+    font-size: 60px;
+    }
+
 .navbar{
     display: flex;
     flex-direction: row;
