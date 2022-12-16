@@ -70,7 +70,7 @@ gap: 1rem;
 
 main div{
 border-radius: 10px;
-background: linear-gradient(180deg, rgba(1, 6, 27, 0.91) 20.31%, rgba(106, 78, 112, 0.91) 100%);
+background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
 width: 100%;
 height: 226px;
 text-align: center;
@@ -87,7 +87,7 @@ font-style: normal;
 }
 
 a{
-color: black;
+color: #ffffff;
 text-decoration: none;
 padding: 0;
 margin: 0;

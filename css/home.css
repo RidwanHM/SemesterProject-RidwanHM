@@ -21,6 +21,24 @@ padding: 0px;
 position: fixed;
 }
 
+.desktop-nav
+{
+display:flex;
+width: 100%;
+gap: 25px;
+display: none;
+}
+
+.desktop-nav-item{
+color: #ffffff;
+list-style-type: none;
+font-size:20px;
+}
+
+.desktop-nav a{
+text-decoration: none;
+}
+
 .navbar{
 display: flex;
 flex-direction: row;
@@ -107,7 +125,7 @@ text-align: left;
 }
 
 .inside-night button{
-background: #AA86A7;
+    background: linear-gradient(180deg, #01051B 68.57%, #9A0776 100%);
 width: 100%;
 color: #ffffff;
 font-family: 'Courier New', Courier, monospace;
@@ -379,14 +397,49 @@ text-align: center;
 font-family: 'Courier New', Courier, monospace;
 }
 
+.payment-options{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 1rem;
+}
+
+
+
+
 
 @media screen and (min-width:990px){
 .desktop-events{display: flex;
     flex-direction: row;
-}
+    gap:8px;}
+
 .inside-night{display: flex;
 flex-direction: column;}
 .night-pic{max-width: 29vw;}
 .hero-text{padding: 2rem 5rem;}
 .exhibition-spaces{padding: 9rem;}
+
+.hero-text p{font-size: 20px;}
+.inside-night p{font-size: 15px;}
+.inside-cosmology p{font-size: 20px;}
+.inside-evolution p{font-size: 20px;}
+.inside-biology p{font-size: 20px;}
+.inside-ecology p{font-size: 20px;}
+.inside-robotics p{font-size: 20px;}
+
+header{
+height: 71px;
+display: flex;
+justify-content: center;}
+
+.logo{width: 52px;}
+.logo-name{font-size: 20px;}
+.fa-sharp1{display: none;}
+.desktop-nav{display: flex;}
+
+.desktop-footer{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
 }
