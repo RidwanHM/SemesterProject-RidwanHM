@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
     <link href="/css/ticket.css" rel="stylesheet"/>
+    <script type="module" src="ticket.js"></script>
     <title>Sinece-Museum/Explore</title>
 </head>
 <body>
@@ -54,7 +55,7 @@
                <p>200NOK ,- Event ticket</p>
                    <section class="inside-kids">
                            <div>
-                            <section class="f-checkout">
+                            <section class="f-checkout" id="form">
                                 <label for="Events">Events:</label>
 
                                 <select name="events" id="events">
@@ -65,7 +66,7 @@
 
                                 <form class="f-name">
                                     <label for="name"></label>
-                                    <input class="fname" type="name" placeholder="Full Name">
+                                    <input class="fname" id="js-name" type="name" placeholder="Full Name">
                                 </form>
                                 <form class="f-country">
                                     <label for="name"></label>
@@ -73,7 +74,7 @@
                                 </form>
                                 <form class="f-adress">
                                     <label for="adress"></label>
-                                    <input class="fadress" type="adress" placeholder="Street Adress">
+                                    <input class="fadress" id="js-adress" type="adress" placeholder="Street Adress">
                                 </form>
                                 <form class="f-zip">
                                     <label for="zip"></label>
@@ -83,7 +84,7 @@
                                 </form>
                                 <form class="f-mail">
                                     <label class="l-mail" for="email"></label>
-                                    <input class="mail" type="email" placeholder="Email@gmail.com">
+                                    <input class="mail" id="js-email" type="email" placeholder="Email@gmail.com">
                                 </form>
                                 <a href="/confirmation.html"><button>Buy Now</button></a>
                             </section>
@@ -116,7 +117,13 @@
     <footer>
         <div class="bottom">
             
-          <section class="desktop-footer">   
+          <section class="desktop-footer">
+            <div class="footer-nav">
+                <a class="nav-normal" href="/index.html">Home</a>
+                <a class="nav-normal" href="/get-involved.html">Get Involved</a>
+                <a class="nav-normal" href="/explore.html">Explore</a>
+                <a class="navpoint" href="/contact.html">Contact</a>
+            </div>     
             <div>
                 <p>CONTACT US</p>
                 <p>Tlf:9745xx34</p>

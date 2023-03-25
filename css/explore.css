@@ -288,7 +288,17 @@ nav{
                 }
     
 
-
+                .footer-nav a{
+                    text-decoration: none;
+                    padding-right:1rem;
+                    }
+            
+                    .navpoint{
+                        color: rgb(58, 168, 15);
+                        }
+                    .nav-normal{
+                        color: #9A0776;
+                    }
 
 
     footer{

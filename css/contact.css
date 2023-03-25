@@ -184,7 +184,9 @@ padding: 0%;
         padding: 0px 1rem;
         }
 
-
+.subject{
+    padding-bottom: 2rem;
+}
 
 
 
@@ -226,7 +228,20 @@ padding: 0%;
             justify-content: center;
             gap: 1rem;
             }
-           
+        
+
+        .footer-nav a{
+        text-decoration: none;
+        padding-right:1rem;
+        }
+
+        .navpoint{
+            color: rgb(58, 168, 15);
+            }
+        .nav-normal{
+            color: #9A0776;
+        }
+        
            
            
            

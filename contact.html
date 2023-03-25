@@ -17,6 +17,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script>
     <link href="/css/contact.css" rel="stylesheet"/>
+    <script type="module" src="contact.js"></script>
     <title>Sinece-Museum/Contact-About</title>
 </head>
 <body>
@@ -105,6 +106,39 @@
             </section>
     </section>
 
+    <section class="location-card">
+        <h4>FORM</h4>
+    </article>
+    <form>
+      <div class="form-group">
+          <label for="js-name">Name</label>
+          <input type="text" id="js-name" required />
+          <p class="validation-container" id="js-name-message"></p>
+      </div>
+
+      <div class="form-group">
+          <label for="js-email">Email</label>
+          <input type="email" id="js-email" required />
+          <p class="validation-container" id="js-name-email"></p>
+      </div>
+
+      <div class="form-group">
+          <label for="js-subject">Subject</label>
+          <input type="subject" class="subject" id="js-subject" required />
+          <p class="validation-container" id="js-name-subject"></p>
+      </div>
+
+      <div class="form-group">
+        <label for="js-adress">Adress</label>
+        <input type="adress" id="js-adress" required />
+        <p class="validation-container" id="js-name-adress"></p>
+    </div>
+
+      <button type="submit">Submit</button>
+  </form>
+</article>
+    </section>
+
 
 
 
@@ -126,7 +160,13 @@
 <footer>
     <div class="bottom">
         
-      <section class="desktop-footer">   
+      <section class="desktop-footer"> 
+        <div class="footer-nav">
+            <a class="nav-normal" href="/index.html">Home</a>
+            <a class="nav-normal" href="/get-involved.html">Get Involved</a>
+            <a class="nav-normal" href="/explore.html">Explore</a>
+            <a class="navpoint" href="/contact.html">Contact</a>
+        </div>  
         <div>
             <p>CONTACT US</p>
             <p>Tlf:9745xx34</p>
