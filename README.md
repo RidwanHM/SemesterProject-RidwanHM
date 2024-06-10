@@ -13,6 +13,8 @@ Contact & about page also have colorful cards but this sections is without image
 The buttons and cards have a hoover effects over it and the buttons change colors when you hoover over it. The cards changes border radius. The tickets section have a form that you can fill out and the press the button. You get directed to the confirmation page and there is a custom made qr-code. If you can scan it, it should lead you to the picture of your ticket. The ticket is inspired from the original tickets for the MUNCH-museum in Oslo,Norway.
 
 Sources:
+https://sience-museum-ridwanhm.netlify.app/
+
 https://www.shutterstock.com/nb/image-vector/ticket-museum-coupon-event-entry-admit-690454279 - Ticket image inside the qr-code.
 
 https://ticket.munchmuseet.no/order/ - Inspiration for the ticket qr-code.
